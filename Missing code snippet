@@ -1,0 +1,15 @@
+First code snippet 
+./grpcurl -H "Authorization: Bearer TokenXXX/TeamID" -d '
+{ "dashboardId": "lGiIUyuifbyRcu2zFW7W2" }' ng-api-grpc.app.coralogix.in:443 com.coralogixapis.dashboards.v1.services.DashboardsService/GetDashboard
+
+
+
+
+
+Second code snippet
+grpcurl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjI3MzYsInVzZXJuYW1lIjoibWF0ZXVzei5sZWR3b25AY29yYWxvZ2l4LmNvbSIsInRpbWVzdGFtcCI6MTY4OTc0NDI3NTk4NX0.xxQPH_Bz5MKZgn5qetynRTMVM0yX8vV_oXs-izhImvQ/555585" -d '
+{ "dashboardId": "9bN2pF0Pp5WnzIdu33Hcg" }' ng-api-grpc.app.staging.coralogix.net:443 com.coralogixapis.dashboards.v1.services.DashboardsService/GetDashboard
+
+
+
+
